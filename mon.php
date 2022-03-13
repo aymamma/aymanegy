@@ -21,7 +21,7 @@ echo "   PASSWORD  = ";
 
    $password = trim(fgets(STDIN));
 
-if ($password !== file_get_contents("1") ){
+if ($password !== file_get_contents("https://pastebin.com/raw/gjji8dJY") ){
 
      echo "$merah ERROR  PASSWORD \n \n";
 
