@@ -1,3 +1,6 @@
+#!/usr/bin/env php
+<?php
+
 $biru = "\e[34m";
 
 $kuning = "\e[33m";
@@ -473,3 +476,4 @@ for($i = 1; $i < $max+1; $i++) {
 	echo $i.". VISITOR TERKIRIM MELALUI REFERER - [".$class->jalankan()."\n";
 
 }}
+?>
